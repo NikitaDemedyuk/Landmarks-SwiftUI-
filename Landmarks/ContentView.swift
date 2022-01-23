@@ -24,11 +24,11 @@ struct ContentView: View {
                     .foregroundColor(.black)
                 HStack {
                     Text("Joshua Tree National Park")
-                        .font(.subheadline)
                     Spacer()
                     Text("California")
-                        .font(.subheadline)
                 }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
                 
                 Divider()
                 
