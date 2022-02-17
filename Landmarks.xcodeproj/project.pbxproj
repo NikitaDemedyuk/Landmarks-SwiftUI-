@@ -29,6 +29,10 @@
 		11745A1A27B397AB00A0529E /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A1927B397AB00A0529E /* CategoryHome.swift */; };
 		11745A1C27B3ABB300A0529E /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A1B27B3ABB300A0529E /* CategoryRow.swift */; };
 		11745A1E27B3ADC700A0529E /* CategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A1D27B3ADC700A0529E /* CategoryItem.swift */; };
+		11745A2027B3D29400A0529E /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A1F27B3D29400A0529E /* Profile.swift */; };
+		11745A2327B3D4A300A0529E /* ProfileHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A2227B3D4A300A0529E /* ProfileHost.swift */; };
+		11745A2527B3D60900A0529E /* ProfileSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A2427B3D60900A0529E /* ProfileSummary.swift */; };
+		11745A2727B3E3DC00A0529E /* HikeBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11745A2627B3E3DC00A0529E /* HikeBadge.swift */; };
 		118730E927A7DF31000B4BA9 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118730E827A7DF31000B4BA9 /* FavoriteButton.swift */; };
 		11DDBA2E279C6641009CD759 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DDBA2D279C6641009CD759 /* LandmarksApp.swift */; };
 		11DDBA30279C6641009CD759 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11DDBA2F279C6641009CD759 /* ContentView.swift */; };
@@ -59,6 +63,10 @@
 		11745A1927B397AB00A0529E /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		11745A1B27B3ABB300A0529E /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		11745A1D27B3ADC700A0529E /* CategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryItem.swift; sourceTree = "<group>"; };
+		11745A1F27B3D29400A0529E /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		11745A2227B3D4A300A0529E /* ProfileHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHost.swift; sourceTree = "<group>"; };
+		11745A2427B3D60900A0529E /* ProfileSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSummary.swift; sourceTree = "<group>"; };
+		11745A2627B3E3DC00A0529E /* HikeBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeBadge.swift; sourceTree = "<group>"; };
 		118730E827A7DF31000B4BA9 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		11DDBA2A279C6641009CD759 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11DDBA2D279C6641009CD759 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
@@ -83,6 +91,7 @@
 			children = (
 				11376B94279E919B0009605E /* ModelData.swift */,
 				11542510279D8B5C00AC38CA /* Landmark.swift */,
+				11745A1F27B3D29400A0529E /* Profile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -91,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				11DDBA2F279C6641009CD759 /* ContentView.swift */,
+				11745A2127B3D45900A0529E /* Profiles */,
 				11745A1827B396BB00A0529E /* Categories */,
 				1159B60827B2E6F100AA4319 /* Hikes */,
 				118730E627A7DC1D000B4BA9 /* Helpers */,
@@ -116,6 +126,7 @@
 				1159B5FD27B27AD200AA4319 /* BadgeSymbol.swift */,
 				1159B5FF27B27D9E00AA4319 /* RotatedBadgeSymbol.swift */,
 				1159B5F927B2496800AA4319 /* HexagonParameters.swift */,
+				11745A2627B3E3DC00A0529E /* HikeBadge.swift */,
 			);
 			path = Badges;
 			sourceTree = "<group>";
@@ -139,6 +150,15 @@
 				11745A1D27B3ADC700A0529E /* CategoryItem.swift */,
 			);
 			path = Categories;
+			sourceTree = "<group>";
+		};
+		11745A2127B3D45900A0529E /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				11745A2227B3D4A300A0529E /* ProfileHost.swift */,
+				11745A2427B3D60900A0529E /* ProfileSummary.swift */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 		118730E627A7DC1D000B4BA9 /* Helpers */ = {
@@ -273,6 +293,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11745A1C27B3ABB300A0529E /* CategoryRow.swift in Sources */,
+				11745A2027B3D29400A0529E /* Profile.swift in Sources */,
 				11DDBA30279C6641009CD759 /* ContentView.swift in Sources */,
 				11745A1A27B397AB00A0529E /* CategoryHome.swift in Sources */,
 				1159B60E27B2E6F100AA4319 /* HikeGraph.swift in Sources */,
@@ -283,7 +304,9 @@
 				118730E927A7DF31000B4BA9 /* FavoriteButton.swift in Sources */,
 				11745A1E27B3ADC700A0529E /* CategoryItem.swift in Sources */,
 				1159B60F27B2E6F100AA4319 /* HikeDetail.swift in Sources */,
+				11745A2527B3D60900A0529E /* ProfileSummary.swift in Sources */,
 				1159B5FA27B2496800AA4319 /* HexagonParameters.swift in Sources */,
+				11745A2327B3D4A300A0529E /* ProfileHost.swift in Sources */,
 				1159B60727B2E62C00AA4319 /* Hike.swift in Sources */,
 				1159B60027B27D9E00AA4319 /* RotatedBadgeSymbol.swift in Sources */,
 				1159B5FE27B27AD200AA4319 /* BadgeSymbol.swift in Sources */,
@@ -291,6 +314,7 @@
 				1159B61027B2E6F100AA4319 /* HikeView.swift in Sources */,
 				1142610C279EFC7F00D6848B /* LandmarkDetail.swift in Sources */,
 				1159B5FC27B24D9F00AA4319 /* BadgeBackground.swift in Sources */,
+				11745A2727B3E3DC00A0529E /* HikeBadge.swift in Sources */,
 				1154250B279D262700AC38CA /* CircleImage.swift in Sources */,
 				11542511279D8B5C00AC38CA /* Landmark.swift in Sources */,
 				11376B9A279E98640009605E /* LandmarkRow.swift in Sources */,
@@ -433,6 +457,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +487,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
